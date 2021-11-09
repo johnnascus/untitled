@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>[untitled]]]</title>
+
+             <SCRIPT LANGUAGE="JavaScript1.2">
+              <!--
+
+              var quakeID = 0;
+              var totalX = 0;
+              var totalY = 0;
+
+              // max pixels in each movement
+              var maxShift = 100;
+
+              // min movements in each quake
+              var minJumps = 50;
+
+              // max movements in each quake
+              var maxJumps = 60;
+
+              // min milliseconds between two quakes
+              var minBetweenQuakes = 400;
+
+              // max milliseconds between two quakes
+              var maxBetweenQuakes = 2000;
+
+              function jump() { // -maxShift to maxShift
+                with (Math)
+                  return (maxShift + 1 - ceil(random() * (maxShift * 2 + 1)));
+              }
+
+
+              function winShake() {
+                for (var i = 0; i < (minJumps + (Math.random() * (maxJumps - minJumps))); i++) {
+                  dX = jump();
+                  dY = jump();
+                  window.moveBy(dX, dY);
+                  totalX -= dX;
+                  totalY -= dY;
+                }
+                
+                window.moveBy(totalX, totalY);
+                totalX = 0;
+                totalY = 0;
+                quakeID = setTimeout("winShake()", Math.ceil(Math.random() *
+                  (maxBetweenQuakes - minBetweenQuakes)) + minBetweenQuakes);
+              }
+
+
+              //-->
+              </SCRIPT>
+
+
+<SCRIPT Language='JavaScript'>
+
+
+function spawn() 
+	{
+
+		code2 = window.open("[untitled]]].html","_blank","toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,copyhistory=yes,width=200,height=112.5,screenX=400,left=400,screenY=400,top=400");
+				
+		code3 = window.open("[untitled]]].html","_blank","toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,copyhistory=yes,width=350,height=196.875,screenX=400,left=400,screenY=0,top=0");
+		
+		code3a = window.open("[untitled]]].html","_blank","toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,copyhistory=yes,width=400,height=225,screenX=0,left=0,screenY=0,top=0");
+		
+		code3c = window.open("[untitled]]].html","_blank","toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,copyhistory=yes,width=300,height=168.75,screenX=300,left=300,screenY=300,top=300");
+		
+}
+
+
+
+
+      function closeWin() {
+        window.close();
+       }
+
+</SCRIPT>
+
+<style type="text/css">
+
+
+body
+   {
+   margin: 0;
+   overflow: hidden;
+   background-color: #000000;
+   background-image: url(../images/seizure.gif);
+   color: #ffffff;
+   }
+
+img {
+  width: 100%;
+  object-fit: contain;
+}
+</style>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-11087288-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</head>
+<BODY onBlur="closeWin()" onLoad="self.focus();winShake();setInterval('closeWin()',10000);" >
+
+
+<A HREF="javascript:closeWin()"  onMouseOver="spawn();"><img border="0" SRC="../images/untitled.gif" WIDTH="100%" BORDER="0"></A>
+
+<audio autoplay loop id="playAudio">
+	<source src="../audio/untitled.mp3">
+</audio>
+
+</body>
+
+</html>
