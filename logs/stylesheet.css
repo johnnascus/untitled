@@ -11,6 +11,94 @@ body {
 	font-family: "Times New Roman", Times, serif;
 }
 
+.index_list {
+	font-family: Lucida Sans Typewriter,Lucida Console,monaco,Bitstream Vera Sans Mono,monospace;
+    padding-left: 0px;
+}
+
+.index_list ul {
+    list-style: square;
+    padding-inline-start: 20px;
+    list-style-position: outside;
+}
+
+.index_list li {
+    }
+
+div.index {
+clear: both;"
+}
+
+.navigate {
+    width: 200px;
+    margin: 20px;
+    font-size: smaller;
+    padding-right: 10px;
+    padding-left: 10px;
+    float: left;
+    position: fixed;
+    border-left: medium solid #000000;
+    border: thin double #000000;
+    max-height: 80vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.navigate h1 {
+    font-size: large;
+    text-align: center;
+}
+
+.navigate h2 {  
+    font-size: small;
+    border: thin solid #000000 ;
+    padding: 3px;
+    text-align: center;
+    line-height: 1em;
+
+
+}
+
+.navigate h2:hover {  
+    color: #000000;
+    text-decoration: underline;
+    background-color: none;
+    border: thin solid #000000;
+}
+
+.navigate h3 {
+    font-size: smaller;
+}
+
+.navigate a {  
+    color: #000000;
+    font-weight: 100;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+
+.navigate a:hover {
+  color: none;
+  text-decoration: underline;
+  background-color: none;
+  }
+
+#end {
+	font-family: Lucida Sans Typewriter,Lucida Console,monaco,Bitstream Vera Sans Mono,monospace;
+	font-size: 14px;
+	text-align: left;
+	width: 800px;
+	padding-bottom: 40px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+	text-align: center;
+	font-weight: bold;
+}
+
 iframe {
 	margin: 0;
 	pointer-events: none;
