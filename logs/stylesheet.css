@@ -215,6 +215,10 @@ only screen and (max-width: 1100px) {
 
 @media
 only screen and (max-width: 1100px) {
+	
+	body{
+    	-webkit-text-size-adjust: 100%;
+	}
 	#navigationbar {
 	  display: block;
 	  background-color: #FFFFFF;
