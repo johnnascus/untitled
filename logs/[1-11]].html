@@ -50,7 +50,7 @@
     <ul>
         <li><a href="[construction]]">&lt;</a></li>
         <li><a href="#top">[Top]]</a></li>
-        <li><a href="javascript:;">[Index]]</a>
+        <li><button class="button" onclick="toggle()">[Index]]</button>
             <ul>
                 <li><a href="#log1">[Log 1]]</a></li>
                 <li><a href="#log2">[Log 2]]</a></li>
@@ -72,12 +72,14 @@
 </div>
 
 <script>
-$('html').click(function() {
-});
-
-$('#navigationbar').click(function(event){
-    event.stopPropagation();
-});
+function toggle() {
+  var x = document.getElementById("#navigationbar ul li ul");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
 </script>
 
 <body><section id="top"></section>

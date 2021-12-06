@@ -73,12 +73,14 @@
 </div>
 
 <script>
-$('html').click(function() {
-});
-
-$('#navigationbar').click(function(event){
-    event.stopPropagation();
-});
+function toggle() {
+  var x = document.getElementById("#navigationbar ul li ul");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
 </script>
 
 <body><section id="top"></section>
